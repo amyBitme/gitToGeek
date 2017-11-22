@@ -40,4 +40,21 @@ git log
 ```
 ---
 
-t
+## 還原
+
+還原查看指定提交版本
+```
+git reset 2bba28
+<!-- --hard 自動置換內容 -->
+git reset --hard 2bba28
+```
+
+```
+> git log
+commit 2bba28331ffa4b91b6937722b10d1e4d5a2f370d (HEAD -> master)
+Author: amyBitme <amy@bit.me>
+Date:   Wed Nov 22 17:40:09 2017 +0800
+
+    no add to commit
+
+```
