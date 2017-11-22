@@ -1,5 +1,5 @@
 可以使用Visual Studio Code觀察
-
+## 創建 
 創立資料夾
 ```
 mkdir gitToGeek
@@ -26,3 +26,18 @@ git add .
 ```
 git commit -m "這裡寫你想新增的筆記"
 ```
+
+---
+## 查詢
+查看git的狀態
+```
+<!-- 檔案是否更動-->
+git status
+```
+查看提交的筆記紀錄
+```
+git log
+```
+---
+
+t
